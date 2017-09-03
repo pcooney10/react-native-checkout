@@ -43,12 +43,6 @@ export default class AddCard extends Component {
     }
   }
 
-  componentWillMount() {
-    if (CardIOUtilities.preload) {
-      CardIOUtilities.preload()
-    }
-  }
-
   componentDidMount() {
     this.refs.cardNumberInput.focus()
   }
