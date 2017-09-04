@@ -27,6 +27,6 @@ export const getCardToken = (cardNumber, expiryMonth, expiryYear, cvc, publicStr
       body: formBody
     })
       .then((response) => response.text())
-      .then((responseText) => JSON.parse(responseText).id)
+      .then((responseText) => JSON.parse(responseText))
   )
 }
