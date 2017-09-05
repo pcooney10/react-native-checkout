@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import _ from 'lodash'
 import PaymentMethods from '../paymentMethods'
 import defaultStyles from './defaultStyles'
