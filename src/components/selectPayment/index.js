@@ -36,7 +36,7 @@ export default class SelectPayment extends Component {
           styles={styles}
         />
         <TouchableOpacity style={styles.cardTextOuterContainer} styles={styles} onPress={() => this.props.addCardHandler()} last>
-          <View style={props.styles.cardTextContainer}>
+          <View style={styles.cardTextContainer}>
             <Image style={styles.cardBrandImage} source={cardExpiry} />
             <Text style={styles.addButtonText}>{this.props.addNewCardText}</Text>
           </View>
