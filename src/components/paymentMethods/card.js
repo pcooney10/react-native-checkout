@@ -11,7 +11,7 @@ export default (props) => {
       <View style={props.styles.cardTextContainer}>
         <CardBrandImage style={props.styles.cardBrandImage} brand={p.brand} />
         <Text style={props.styles.cardTextLast4}>{`**** ${p.last4}`}</Text>
-        <Text style={props.styles.cardBrandImage}>{`${month}/${p.expYear}`}</Text>
+        <Text style={props.styles.cardExpiry}>{`${month}/${p.expYear}`}</Text>
       </View>
     </TouchableOpacity>
   )
